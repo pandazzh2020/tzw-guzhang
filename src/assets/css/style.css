@@ -1,0 +1,505 @@
+.y_header {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+.user {
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.y_lable {
+	height: 100%;
+	width: 100%;
+	max-height: calc(100% - 50px);
+	background-color: #fff;
+	overflow-x: auto;
+	overflow-y: auto;
+}
+
+/* 搜索页面 */
+.y_search {
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+}
+
+.y_search img {
+	width: 115px;
+	border-width: 0px;
+	position: absolute;
+	margin-left: 44%;
+	top: 140px;
+	height: 105px;
+	display: flex;
+}
+
+.y_search_input {
+	border-width: 0px;
+	position: absolute;
+	margin-left: 31%;
+	top: 290px;
+	width: 680px;
+	height: 4px;
+	display: flex;
+}
+
+button {
+	width: 130px;
+	height: 40px;
+	cursor: pointer;
+}
+
+.y_hot {
+	width: 700px;
+	height: 200px;
+	margin-left: 32%;
+	position: relative;
+	top: 330px
+}
+
+.y_hot a {
+	width: 100%;
+	height: 30px;
+	float: left;
+	padding: 2px;
+	font-size: 17px;
+}
+
+.y_hot li {
+	padding: 8px;
+	font-size: 15px;
+}
+
+/* 搜索信息页 */
+.y_search_keyword {
+	border-width: 0px;
+	margin-left: 31%;
+	margin-top: 15px;
+	width: 680px;
+	height: 4px;
+	display: flex;
+}
+
+.search_keyword {
+	margin-left: 11%;
+	padding: 40px;
+	width: 80%;
+}
+
+.search_message {
+	padding: 20px;
+	float: left;
+	width: 350px;
+	font-size: 15px;
+}
+
+.search_message p {
+	margin-top: 15px;
+}
+
+.search_message table {
+	border: 1px solid;
+}
+
+.detailes {
+	float: right;
+	cursor: pointer;
+	color: #000000;
+}
+
+/* 搜索详情 */
+.y_dettiles {
+	margin-left: 28%;
+	margin-top: 10px;
+	width: 800px;
+	text-align: left;
+}
+
+.y_dettiles table {
+	width: 100%;
+	height: 100%;
+	/* box-shadow: 0 2px 22px 0 rgba(0, 0, 0, 0.1);  阴影 */
+	border-collapse: collapse;
+	/* 取消表格边框 */
+	letter-spacing: 1px;
+	/* 文字缩进 */
+	font-size: 15px;
+	border: 1px solid #000
+}
+
+.y_dettiles table,
+th,
+tr,
+td {
+	padding: 15px;
+	/* line-height: 50px; */
+	text-align: center;
+}
+
+.y_dettiles th,
+tr,
+td {
+	padding: 15px;
+	text-align: left;
+}
+
+
+/* 添加标记页面 */
+.y_label_insert {
+	/* text-align: center; */
+	border-radius: 20px;
+	width: 640px;
+	height: 630px;
+	margin-left: 36%;
+	margin-top: 6%;
+	top: 0;
+	left: 80;
+	right: 0;
+	bottom: 0;
+	transform: translateX(-25%);
+	/**左移元素**/
+}
+
+/* 标记列表页面 */
+.y_lable_show {
+	height: 100%;
+	overflow-x: auto;
+	overflow-y: auto;
+}
+.upload {
+	width: 10px;
+}
+.upload button,
+.upload button:hover{
+	width: 110px;
+	height: 40px;
+	/* background-color: #aaaaff; */
+	/* color: #000000; */
+}
+/* 故障标记状态颜色 */
+.already_marker {
+	color: #67C23A;
+}
+.not_marker {
+	color: #409EFF;
+}
+.on_marker {
+	color: #ff0000;
+}
+
+
+/* 标记编辑页面 */
+.y_condition {
+	margin-left: 30%;
+	margin-top: 10px;
+	width: 800px;
+	text-align: left;
+}
+
+.y_condition table {
+	width: 100%;
+	height: 100%;
+	/* box-shadow: 0 2px 22px 0 rgba(0, 0, 0, 0.1);  阴影 */
+	border-collapse: collapse;
+	/* 取消表格边框 */
+	letter-spacing: 1px;
+	/* 文字缩进 */
+	font-size: 15px;
+	border: 1px solid #000
+}
+
+.y_condition table,
+th,
+tr,
+td {
+	border-bottom: 1px solid #000000;
+	/* 表格横线 */
+	padding: 15px;
+	/* line-height: 50px; */
+	text-align: center;
+}
+
+.table_analyse th,
+tr,
+td {
+	border-bottom: 1px solid #000000;
+	padding: 15px;
+	text-align: left;
+}
+
+.y_condition button {
+	margin-left: 40%;
+}
+.table span,
+a {
+	margin-left: 5px;
+	color: #000000;
+}
+
+#insert p {
+	margin-top: 10px;
+}
+#insert input {
+	width: 185px;
+}
+#insert i {
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+/* 标签颜色 字体大小 */
+.cause {
+	font-size: 14px;
+	width: 80px;
+	cursor: pointer;
+	user-select: all;
+}
+.cause input{
+	color: #000000;
+	background-color: #aaff7f;
+	border: hidden;
+	width: 80px;
+	height: 25px;
+	text-align: center;
+}
+.fault {
+	font-size: 14px;
+	color: #13CE66;
+	cursor: pointer;
+	user-select: all;
+}
+.fault input{
+	color: #000000;
+	background-color: #ff00009e;
+	border: hidden;
+	width: 95px;
+	height: 25px;
+	text-align: center;
+}
+
+
+/* 训练页面 */
+.y_learn {
+	margin-left: 5%;
+	margin-top: 10px;
+	width: 800px;
+	text-align: left;
+}
+
+.y_learn table {
+	width: 100%;
+	height: 100%;
+	/* box-shadow: 0 2px 22px 0 rgba(0, 0, 0, 0.1);  阴影 */
+	border-collapse: collapse;
+	/* 取消表格边框 */
+	letter-spacing: 1px;
+	/* 文字缩进 */
+	font-size: 15px;
+}
+
+.learn_table {
+	border: 1px solid;
+	height: 500px;
+	text-align: center;
+	overflow-x: auto;
+	overflow-y: auto;
+}
+
+.y_learn button {
+	width: 160px;
+}
+
+.y_learn li {
+	padding: 15px;
+	margin-left: 30px;
+}
+
+.y_learn input {
+	text-align: center;
+}
+
+.name_table {
+	border: 1px solid;
+	height: 350px;
+	text-align: left;
+	font-size: 16px;
+	overflow-x: auto;
+	overflow-y: auto;
+}
+
+.name_table p {
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.name_table span {
+	/* width: 150px; */
+	margin-left: 50px;
+}
+.y_learn_condition {
+	margin-top: 10px;
+	width: 800px;
+	text-align: left;
+}
+
+.y_learn_condition table {
+	width: 100%;
+	height: 100%;
+	/* box-shadow: 0 2px 22px 0 rgba(0, 0, 0, 0.1);  阴影 */
+	border-collapse: collapse;
+	/* 取消表格边框 */
+	letter-spacing: 1px;
+	/* 文字缩进 */
+	font-size: 15px;
+	border: 1px solid #000
+}
+
+.y_learn_condition table,
+th,
+tr,
+td {
+	border-bottom: 1px solid #000000;
+	/* 表格横线 */
+	padding: 15px;
+	/* line-height: 50px; */
+	text-align: center;
+}
+
+.y_learn_condition th,
+tr,
+td {
+	border-bottom: 1px solid #000000;
+	padding: 15px;
+	text-align: left;
+}
+
+.y_learn_condition button {
+	margin-left: 40%;
+}
+.y_model_right {
+    margin-left: 970px;
+    margin-top: -462px;
+	width: 660px;
+	/* border: 1px solid #000 */
+}
+.y_model_right button {
+	width: 85px;
+}
+
+
+/* 样本训练 */
+.sample_select {
+	height: 300px;
+	width: 82
+	0px;
+	overflow-x: auto;
+	overflow-y: auto;
+	/* border: 1px solid #000 */
+}
+.y_sample_top {
+	margin-top: 10px;
+}
+.y_sample_top button{
+	width: 100px;
+	height: 40px;
+}
+.y_train {
+	padding: 20px;
+}
+
+
+
+#content a {
+	/* background-color: #84d3f7; */
+	color: #000000;
+	font-weight: bold;
+	cursor: pointer;
+	user-select: all;
+	/* 双击全选 */
+}
+
+#content p,
+li {
+	cursor: default;
+}
+
+/* 右键标记 */
+.equip {
+	background-color: #84d3f7;
+	cursor: pointer;
+	user-select: all;
+	/* 双击全选 */
+}
+
+.program {
+	background-color: #aaaaff;
+	cursor: pointer;
+	user-select: all;
+	/* 双击全选 */
+}
+
+.phenomenon {
+	background-color: #ffff7f;
+	cursor: pointer;
+	user-select: all;
+	/* 双击全选 */
+}
+
+.describe {
+	background-color: #71b61e;
+	cursor: pointer;
+	user-select: all;
+}
+
+#context-menu li {
+	text-align: center;
+	width: auto;
+	line-height: 32px;
+	/* 	display: inline-block; */
+	height: 32px;
+}
+
+#context-menu li:hover {
+	background-color: #b3b3b3;
+}
+
+.upload-demo {
+	/* border-style: solid; */
+	width: 16%;
+	height: 8%;
+	margin: auto;
+	border-width: 2px;
+}
+
+.upload-demo input {
+	/* border-style: solid; */
+	cursor: none;
+}
+
+.uploadAvatar {
+	margin: auto;
+	width: 20%;
+	height: 10%;
+	padding: 10px;
+}
+
+.el-dropdown-link {
+	cursor: pointer;
+	color: #409EFF;
+}
+
+.el-icon-arrow-down {
+	font-size: 12px;
+}
+
+
+.abstract button {
+	margin-left: 1%;
+}
+
+.y_function_button {
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
