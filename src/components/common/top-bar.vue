@@ -22,7 +22,7 @@
 						<el-avatar :size="30" :src="circleUrl"></el-avatar><i class="el-icon-arrow-down el-icon--right"></i>
 					</span>
 					<el-dropdown-menu slot="dropdown">
-						<el-dropdown-item>个人主页</el-dropdown-item>
+						<el-dropdown-item><el-button type="text" @click="accountpage">个人主页</el-button></el-dropdown-item>
 						<el-dropdown-item divided><el-button type="text" style="color:#F56C6C;" @click="exit">退出登录</el-button></el-dropdown-item>
 					</el-dropdown-menu>
 					</el-dropdown>
@@ -67,7 +67,10 @@
 					message: '已取消'
 				});          
 			});
-		  }
+		  },
+		 accountpage() {
+			this.$router.push('account');
+		 },
 	    }
 	  }
 </script>
